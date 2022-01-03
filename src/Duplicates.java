@@ -30,15 +30,7 @@ public class Duplicates {
 	//POST: returns true if arr contains duplicate values
 	//      and false otherwise
 	public static boolean findDuplicates(int[] arr) {
-		for(int i = 0; i < arr.length; i++) {
-			for(int j = i + 1; j < arr.length; j++) {
-				if(arr[i] == arr[j]) {
-					return true;
-				}
-			}
-		}
-		
-		return false;
+           //Your code here
 	}
 
 }
