@@ -12,7 +12,7 @@ public class Duplicates {
 			numbers[i] = (int) (Math.random() * 50);
 		}
 
-		// Sort the list so that binary search can work
+		// Call the findDuplicates method
 		boolean result = findDuplicates(numbers);
 		
 		//Display the results of the method
